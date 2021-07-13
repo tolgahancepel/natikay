@@ -19,11 +19,11 @@ Natikay is an IoT-based vertical farming project, which all apps developed with 
 ### Prototype
 
 <a>
-  <img height=60px src=""></img>
+  <img width=720px src="https://github.com/tolgahancepel/natikay/blob/master/img-prototype.jpg"></img>
 </a>
 
 ### Screenshots
 
 <a>
-  <img height=60px src=""></img>
+  <img width=720px src="https://github.com/tolgahancepel/natikay/blob/master/img-screenshot.png"></img>
 </a>
