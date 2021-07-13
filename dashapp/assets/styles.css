@@ -1,0 +1,330 @@
+html,body{
+    overflow-x: hidden;
+}
+
+#mainContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 6vh 10%;
+}
+
+.bg-primary {
+    background-color: #4a8864  !important;
+}
+
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(245, 245, 245, 1.0)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    
+}
+
+.navbar-light .navbar-toggler {
+    /* border-color: rgba(245, 245, 245, 0.5); */
+    border: none !important
+    /* border-radius: 10px; */
+}
+
+
+
+@font-face {
+    font-family: "San Francisco";
+    font-weight: 500;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+  }
+
+body {
+  background-color: #f7f7f7;
+  color:#000000;
+  /* font-family: url('/fonts/SFProDisplay-Regular.ttf') */
+}
+
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1340px !important;
+}
+
+.card-body {
+    padding: 0.75rem;
+    background-color: #ffffff;
+}
+
+
+.nav-tabs {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    border-bottom: none;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    background-color: white;
+    color: #4a8864;
+    border: none;
+}
+
+
+
+@media (max-width: 768px) {
+    .col-sm-12 {
+        padding-bottom: 20px;
+    }
+
+    .card-padding {
+        padding-bottom: 4vh;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .feature-row {
+        padding-bottom: 4vh;
+    }
+
+    
+
+}
+
+.custom-select:focus{
+    border: none;
+    text-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+
+.custom-select {
+    background-color: transparent;
+    color: white;
+    /* border-color: rgba(0,0,0,0.4); */
+    background-color: rgba(0,0,0,0.2);
+}
+
+.nav-tabs .nav-item {
+    margin-inline: 5px;
+}
+
+.mb-5 {
+    margin-bottom: 0rem !important;
+}
+
+.cover {
+    background-color: #272953;
+    text-align: center;
+    background-image: url("cover.png");
+    /* background-image: linear-gradient(#16103a, #0f1021);  */
+    background-color: #16103a;
+    background-size: 110%;
+    background-position: center;
+    background-repeat: repeat-x;
+}
+
+.footer {
+    text-align: center;
+    /* background-color: #16103a; */
+    color: rgba(133, 133, 133, 0.75);
+    margin: 2rem 0rem;
+}
+
+
+.customer-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vh;
+    height: 42vh;
+}
+
+.btn-predict {
+    background-color: #206a5d;
+}
+
+.result-card {
+    background-color: #16103a;
+    text-align: center;
+}
+
+.card {
+    border: none !important;
+    
+}
+
+
+
+.form-control {
+    background-color: #16103a;
+    color: #e0e1e6;
+}
+
+/* ._dash-loading {
+    text-indent: -9999em;
+  } */
+
+
+.github-logo {
+    display:inline;
+    width: 24px;
+    margin-right: 5px;
+    padding-bottom: 2px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+
+
+/* 
+ * Bitirme
+ */
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2) !important;
+}
+
+.img-light {
+    width: 100%;
+    height: auto;
+}
+
+.card-header-light {
+    text-align: center;
+    color: white;
+    background-color: #4a8864;
+}
+
+.card-infocard {
+    height: 80px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2) !important;
+    display: block;
+}
+
+
+
+.img-infocard {
+    width: 42px;
+    height: 42px;
+    margin: auto;
+}
+
+.text-infocard-unit {
+    text-align: center;
+    font-size: 9pt;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: darkgray;
+}
+
+
+.card-thermometer {
+    height: 80px;
+    width: 80px;
+    box-shadow: none !important;
+    background-color: #b4af67;
+    float: left;
+}
+
+.text-temperature {
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 8px;
+    font-size: 24pt;
+    color: #b4af67;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: -6px;
+}
+
+
+
+/* 
+* Humidity
+*/
+
+.text-humidity {
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 8px;
+    font-size: 24pt;
+    color: #009688;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: -6px;
+}
+
+.card-humidity {
+    height: 80px;
+    width: 80px;
+    box-shadow: none !important;
+    background-color: #009688;
+    float: left;
+}
+
+/* 
+* Air Quality
+*/
+
+.text-air {
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 8px;
+    font-size: 24pt;
+    color: #3AA2E1;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: -6px;
+}
+
+.card-air {
+    height: 80px;
+    width: 80px;
+    box-shadow: none !important;
+    background-color: #3AA2E1;
+    float: left;
+}
+
+/* 
+* Plant
+*/
+
+.text-plant {
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 8px;
+    font-size: 24pt;
+    color: #71b467;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: -6px;
+}
+
+.card-plant {
+    height: 80px;
+    width: 80px;
+    box-shadow: none !important;
+    background-color: #71b467;
+    float: left;
+}
+
+/*
+* LIGHT CONTROL CARD
+*/
+
+.light-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.light-buttons-individual {
+    border-radius: 30px;
+    width: 80px;
+}
+
+/*
+* DROP CARD
+*/
+
+.img-drop {
+    width: 100%;
+    height: auto;
+}
